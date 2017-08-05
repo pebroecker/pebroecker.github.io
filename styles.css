@@ -44,18 +44,24 @@ table {
     width: 100%;
     table-layout: fixed;
     border: 0px;
+    margin-left:30px
 }
 
 tr { border: 0px; }
     
-td {
+    
+td, td.description {
     border:0px;
     vertical-align:top;
-    width: 100%;
+    /* width: 100%; */
     font-family:  "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", 
   Helvetica, Arial, "Lucida Grande", sans-serif;
     font-size: 18px;
     color: #333;
     line-height: 150%;
+    padding-bottom: 20px;
+}
 
+td.description {
+    width:65%;
 }
